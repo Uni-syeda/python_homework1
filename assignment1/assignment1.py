@@ -187,7 +187,7 @@ def titleize(input_string):
 print(titleize("The Secret of Success is Hard Work"))
 
 
-print("********************TASK9*********")
+#print("********************TASK9*********")
 def hangman(secret,guess):
     result = ""
     for char in secret:
