@@ -27,8 +27,10 @@ greet("Shakera")
 print("********************TASK3**************")
 #Write a calc function. It takes three arguments.
 #  The default value for the third argument is "multiply".
-#  The first two arguments are values that are to be combined using the operation requested by the third argument,
-#  a string that is one of the following add, subtract, multiply, divide, modulo, int_divide (for integer division) and power. 
+#  The first two arguments are values that are to be combined using the 
+# operation requested by the third argument,
+#  a string that is one of the following add, subtract, multiply, 
+# divide, modulo, int_divide (for integer division) and power. 
 # The function returns the result.
 def calc(x, y, z="multiply"): 
     try:
@@ -185,7 +187,6 @@ def titleize(input_string):
 
 
 print(titleize("The Secret of Success is Hard Work"))
-
 
 print("********************TASK9*********")
 def hangman(secret,guess):
